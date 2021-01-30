@@ -1,0 +1,17 @@
+# Site settings
+
+future: true
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+destination: docs,_layouts
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - gulpfile.js
+  - docs
+  - node_modules
+  - scss
